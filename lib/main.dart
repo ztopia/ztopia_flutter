@@ -62,7 +62,7 @@ class Home extends StatelessWidget {
         body: TabBarView(
           children: <Widget>[
             ListViewDemo(),
-            BasicDemo(),
+            BasicDemo(), //Text RichText Column Row DecorationBox
             Icon(Icons.local_dining,size: 128.0,color:Colors.black12),
           ],
         ),
