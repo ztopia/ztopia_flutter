@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 
 import './button_demo.dart';
 import './floating_action_button.dart';
-// import './widget_demo.dart';
 import './popup_menu_button_demo.dart';
+import './checkbox_demo.dart';
+import './radio_demo.dart';
+import './switch_demo.dart';
+import './slider_demo.dart';
+import './date_time_demo.dart';
 
 class MaterialComponents extends StatelessWidget {
   @override
@@ -24,11 +28,52 @@ class MaterialComponents extends StatelessWidget {
             title: 'PopupMenuButtonDemo',
             page: PopupMenuButtonDemo(),
           ),
-          // ListItem(
-          //   title: 'WidgetDemo',
-          //   page: WidgetDemo(),
-          // )
+          ListItem(
+            title: 'CheckBoxDemo',
+            page: CheckBoxDemo(),
+          ),
+          ListItem(
+            title: 'RadioDemo',
+            page: RadioDemo(),
+          ),
+          ListItem(
+            title: 'SwitchDemo',
+            page: SwitchDemo(),
+          ),
+          ListItem(
+            title: 'SliderDemo',
+            page: SliderDemo(),
+          ),
+          ListItem(
+            title: 'DateTimeDemo',
+            page: DateTimeDemo(),
+          ),
         ],
+      ),
+    );
+  }
+}
+
+//Widget模板
+class WidgetDemo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('WidgetDemo'),
+        elevation: 0.0,
+      ),
+      body: Container(
+        padding: EdgeInsets.all(18.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[],
+            )
+          ],
+        ),
       ),
     );
   }
