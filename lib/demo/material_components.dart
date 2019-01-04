@@ -8,6 +8,16 @@ import './radio_demo.dart';
 import './switch_demo.dart';
 import './slider_demo.dart';
 import './date_time_demo.dart';
+import './simple_dialog_demo.dart';
+import './alert_dialog_demo.dart';
+import './button_sheet_demo.dart';
+import './snack_bar_demo.dart';
+import './expandsion_panel_demo.dart';
+import './chip_demo.dart';
+import './data_table_demo.dart';
+import './paginated_data_table_demo.dart';
+import './card_demo.dart';
+import './stepper_demo.dart';
 
 class MaterialComponents extends StatelessWidget {
   @override
@@ -47,6 +57,46 @@ class MaterialComponents extends StatelessWidget {
           ListItem(
             title: 'DateTimeDemo',
             page: DateTimeDemo(),
+          ),
+          ListItem(
+            title: 'SimpleDialogDemo',
+            page: SimpleDialogDemo(),
+          ),
+          ListItem(
+            title: 'AlertDialogDemo',
+            page: AlertDialogDemo(),
+          ),
+          ListItem(
+            title: 'BottomSheetDemo',
+            page: BottomSheetDemo(),
+          ),
+          ListItem(
+            title: 'SnackBarDemo',
+            page: SnackBarDemo(),
+          ),
+          ListItem(
+            title: 'ExpansionPanelDemo',
+            page: ExpansionPanelDemo(),
+          ),
+          ListItem(
+            title: 'ChipDemo',
+            page: ChipDemo(),
+          ),
+          ListItem(
+            title: 'DataTableDemo',
+            page: DataTableDemo(),
+          ),
+          ListItem(
+            title: 'PaginatedDataTableDemo', //分页显示数据
+            page: PaginatedDataTableDemo(),
+          ),
+          ListItem(
+            title: 'CardDemo', //分页显示数据
+            page: CardDemo(),
+          ),
+          ListItem(
+            title: 'StepperDemo', //分页显示数据
+            page: StepperDemo(),
           ),
         ],
       ),

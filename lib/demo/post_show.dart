@@ -19,7 +19,7 @@ class PostShow extends StatelessWidget {
         //     children: <Widget>[
         //         Padding(
         //             padding: EdgeInsets.only(left: 8.0, right: 20.0), child: Icon(Icons.account_balance),),
-        //             Expanded(//解决Row overflow错误
+        //             Expanded(//解决Row overflow错误,或者使用 Wrap
         //                 child: Text(
         //                   'Main Cotent. This is a demo to show how to avoid overflow in a Row widget'),
         //             ),

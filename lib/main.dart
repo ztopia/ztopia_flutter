@@ -22,7 +22,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.brown[700],
         highlightColor: Color.fromRGBO(255, 255, 255, 0.5), //点击高亮
-        splashColor: Colors.orange, //点击波纹颜色
+        splashColor: Colors.grey[100], //点击波纹颜色
         accentColor: Colors.pink,//避免覆盖所有设置
       ),
       // home: NavigatorDemo(),
@@ -52,7 +52,7 @@ class Home extends StatelessWidget {
             IconButton(
               icon: Icon(
                 Icons.search,
-                color: Colors.orange,
+                color: Colors.grey[100],
               ),
               tooltip: 'Search',
               onPressed: () => debugPrint('Search button is pressed!'),
